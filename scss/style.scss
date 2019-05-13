@@ -1,0 +1,41 @@
+$mainfont: "Lato", sans-serif;
+$maincolor: rgba(46, 93, 170, 1);
+@mixin center {
+  font-family: $mainfont;
+  text-align: center;
+}
+
+#title {
+  @include center;
+  color: $maincolor;
+}
+
+#description {
+  @include center;
+}
+
+svg{
+  background-color:$maincolor;
+  padding:50px;
+  display:block;
+  margin:auto;
+}
+path, line{ 
+  stroke: gray;
+  fill:gray;
+}
+
+#tooltip{
+  @include center;
+  color:$maincolor;
+  background-color:white;
+  opacity:0.8;
+  position:absolute;
+  width:150px;
+  heigh:80px;
+  box-shadow: 2px 2px 20px;   
+  padding:20px;
+}
+rect:hover
+{ stroke:black}
+

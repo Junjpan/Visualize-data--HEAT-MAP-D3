@@ -1,0 +1,39 @@
+#title {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #2e5daa;
+}
+
+#description {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+}
+
+svg {
+  background-color: #2e5daa;
+  padding: 50px;
+  display: block;
+  margin: auto;
+}
+
+path, line {
+  stroke: gray;
+  fill: gray;
+}
+
+#tooltip {
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  color: #2e5daa;
+  background-color: white;
+  opacity: 0.8;
+  position: absolute;
+  width: 150px;
+  heigh: 80px;
+  box-shadow: 2px 2px 20px;
+  padding: 20px;
+}
+
+rect:hover {
+  stroke: black;
+}
